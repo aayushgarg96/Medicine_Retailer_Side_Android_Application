@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_new_order"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="New Order" />
+        <item
+            android:id="@+id/nav_pro_orders"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Processing Order" />
+        <item
+            android:id="@+id/nav_old_orders"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Old Orders" />
+        <item
+            android:id="@+id/nav_update"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Update Profile" />
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu>
